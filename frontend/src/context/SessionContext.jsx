@@ -3,7 +3,7 @@ import axios from 'axios';
 import { AuthContext } from "./AuthContext";
 import toast from "react-hot-toast";
 
-axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = "https://well-ness-hubbackend.vercel.app";
 
 export const SessionContext = createContext();
 
