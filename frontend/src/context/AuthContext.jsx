@@ -2,7 +2,7 @@ import { createContext, useEffect, useState } from "react";
 import axios from 'axios'
 import toast from "react-hot-toast";
 export const AuthContext = createContext()
-axios.defaults.baseURL="http://localhost:5000";
+axios.defaults.baseURL="https://well-ness-hubbackend.vercel.app";
 
 
 
